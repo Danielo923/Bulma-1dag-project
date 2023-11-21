@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <title>Bulma | Doelen en tijden</title>
+</head>
+
+<body class="has-background-info">
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>Pagina's</span>
+                <span class="icon is-small">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+            </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <a href="index.html" class="dropdown-item is-active">
+                    Doelen en tijden
+                </a>
+                <a href="coach.html" class="dropdown-item">
+                    Coach
+                </a>
+
+                <hr class="dropdown-divider">
+                <a href="inlog.html" class="dropdown-item">
+                    Login Page
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="section">
+        <div class="container">
+            <div class="box has-text-centered">
+                <h1 class="title">Doelen en tijden</h1>
+                <p class="subtitle">Doelen en tijden per dag/week.</p>
+            </div>
+            <h1 class="title box has-text-centered is-white is-">Dag doelen</h1>
+            <div class="columns">
+                <div class="column box is-marginless">
+                    Doel 1: Lorem ipsum dolor sit amet.
+                </div>
+                <div class="column box is-marginless">
+                    Doel 2: Lorem ipsum dolor cum amet.
+                </div>
+                <div class="column box is-marginless">
+                    Doel 3: Lorem ipsum dolor sit amet.
+                </div>
+                <div class="column box is-marginless">
+                    Doel 4: Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+
+            <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                <thead>
+                    <h1 class="title box has-text-centered is-white is-">Week doelen</h1>
+                    <tr>
+                        <th><abbr title="Doelen en Tijden">D/T</abbr></th>
+                        <th><abbr title="Maandag">Ma</abbr></th>
+                        <th><abbr title="Dinsdag">Di</abbr></th>
+                        <th><abbr title="Woensdag">Wo</abbr></th>
+                        <th><abbr title="Donderdag">Do</abbr></th>
+                        <th><abbr title="Vrijdag">Vr</abbr></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Tijden</th>
+                        <th>09:00 uur - 17:00 uur</th>
+                        <th>09:00 uur - 17:00 uur</th>
+                        <th>09:00 uur - 17:00 uur</th>
+                        <th>09:00 uur - 17:00 uur</th>
+                        <th>09:00 uur - 17:00 uur</th>
+                    </tr>
+                    <tr>
+                        <th>Doel 1</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                        <th>Doel 2</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor cum amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                        <th>Doel 3</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                        <th>Doel 4</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                        <th>Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <form class="box">
+        <div class="field">
+            <label class="label">Doelen suggesties</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Doelen">
+            </div>
+            <label class="label">Tijd van afronding doel</label>
+            <div class="control">
+                <input class="input" type="date">
+            </div>
+        </div>
+        <button class="button is-info">Opsturen</button>
+    </form>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js'></script>
+</body>
+
+</html>

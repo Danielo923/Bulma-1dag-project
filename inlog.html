@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="has-background-grey-lighter" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <title>Bulma | Inlog</title>
+</head>
+
+<body>
+    <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                <span>Pagina's</span>
+                <span class="icon is-small">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+            </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="dropdown-content">
+                <a href="index.html" class="dropdown-item">
+                    Doelen en tijden
+                </a>
+                <a href="coach.html" class="dropdown-item">
+                    Coach
+                </a>
+
+                <hr class="dropdown-divider">
+                <a href="inlog.html" class="dropdown-item is-active">
+                    Login Page
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="columns is-centered">
+        <div class="column is-half">
+            <form class="box">
+                <h1 class="title has-text-centered">Login</h1>
+                <p class="subtitle has-text-centered">Voer uw inloggegevens in.</p>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="e.g. alex@example.com">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control">
+                        <input class="input" type="password" placeholder="********">
+                    </div>
+                </div>
+
+                <button class="button is-info">Sign in</button>
+            </form>
+        </div>
+    </div>
+</body>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js'></script>
+
+</html>
